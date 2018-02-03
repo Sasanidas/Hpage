@@ -1,0 +1,150 @@
+@font-face {
+    font-family: ticketing;
+    src: url(../img/font/Ticketing.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    background-color: black;
+}
+html,body{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+main{
+    width: 100%;
+    background-color: black;
+    background-image: url(../img/hack.gif);
+    background-repeat: repeat-y;
+    background-position: left; 
+    padding-bottom:24px;
+}
+header{
+    height: 70%;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    padding-top:4em;
+    padding-bottom: 5.9em;
+}
+#menu-title{
+    margin: auto 0;
+    text-align: center;
+    font-size: 4em;
+    font-family: ticketing;
+    color: white;
+}
+
+#menu{
+    width: 100%;
+}
+#item-list{
+    margin: 0 auto;
+    width: 600px; 
+}
+.item{
+    color: white;
+    width: 25%;
+    height: 89%;
+    margin-left: 44px;
+    border: white solid 3px;
+    float: left;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: ticketing;
+    border-radius: 25px;
+}
+
+#images{
+    margin: 0 auto;
+    width: 650px;
+    padding-left:100px;
+    z-index: 950;
+}
+.img-it{
+    float: left;
+    margin-top: 1em;
+    width: 20%;
+
+}
+.img-alt{
+    transition: width 2s,transform 2s;
+}
+.img-alt:hover{
+    width: 100px;
+    transform: rotate(360deg);
+}
+#sections{
+    width: 100%;
+    height: 100em;
+    background-image: url('../img/serveimage.png');
+    border-top: white solid 2px;
+}
+
+section{
+    width: 100%; 
+    height: 25%; 
+    background-color:rgba(0, 0, 0, 0);
+    float: left;
+    margin-top: 4%;
+    border: tomato solid 0px;
+    z-index: 900;
+}
+
+#id-section-center{
+    width: 900px;
+    height: 50%;
+    margin: 0 auto;
+
+
+}
+#id-section-inicio-image{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#id-section-inicio-text{
+    width: 49%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: auto;
+    border: white solid 1px;
+    border-radius: 100px;
+}
+#id-section-inicio-text-p{
+    margin-top: 18%;
+    text-align: center;
+    color: white;
+    font-family: ticketing;
+    font-size: 1.6em;
+}
+#id-section-proyectos-center{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: red;
+    margin-top: 8%;
+}
+
+
+
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 10%;
+    /*  position:fixed;
+      left:0px;
+      bottom:0px;
+      width:100%;
+    */
+}
