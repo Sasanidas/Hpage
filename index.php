@@ -87,7 +87,7 @@
                 <section id="id-section-proyectos" class="scroll">
                     <div id="id-section-proyectos-center">
                         <div id="id-section-proyectos-img">
-                            <img src="" alt="">
+                            <img src="img/cat.png" alt="" style="width: 50%;margin-left: 20%; border-radius: 300px; background-color: white">
                         </div>
                         <div id="id-section-proyectos-text">
                             <p id="id-section-proyectos-text-p"></p>
